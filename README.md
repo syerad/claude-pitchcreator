@@ -28,10 +28,11 @@ ln -s "$(pwd)/claude-pitchcreator/skills/shape-up-pitch" ~/.claude/skills/shape-
 
 ## Use
 
-In Claude Code, ask for a pitch in your own words — "write a Shape Up pitch
-for X", "shape this epic into a pitch", "sharpen this draft" — and answer
-the intake question (mode, and appetite if you haven't stated it). Finished
-pitches land in `pitches/YYYY-MM-DD-<slug>.md` in your current project.
+In Claude Code, run `/shape-up-pitch`, or just ask in your own words —
+"write a Shape Up pitch for X", "shape this epic into a pitch", "sharpen
+this draft". Either way, answer the intake question (mode, and appetite if
+you haven't stated it). Finished pitches land in
+`pitches/YYYY-MM-DD-<slug>.md` in your current project.
 
 ## Files
 
