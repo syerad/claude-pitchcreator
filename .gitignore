@@ -1,0 +1,4 @@
+# local build-process artifacts — never ship with the skill
+docs/superpowers/
+tasks/
+.claude/settings.local.json
