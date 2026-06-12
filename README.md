@@ -22,8 +22,8 @@ pitch against a readiness checklist before you get it.
 ## Install
 
 ```bash
-git clone <this-repo>
-ln -s "$(pwd)/pitchcreator/skills/shape-up-pitch" ~/.claude/skills/shape-up-pitch
+git clone https://github.com/syerad/claude-pitchcreator.git
+ln -s "$(pwd)/claude-pitchcreator/skills/shape-up-pitch" ~/.claude/skills/shape-up-pitch
 ```
 
 ## Use
