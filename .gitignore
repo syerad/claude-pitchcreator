@@ -2,3 +2,6 @@
 docs/superpowers/
 tasks/
 .claude/settings.local.json
+
+# built packages — produced by package.sh, attached to releases
+dist/

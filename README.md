@@ -21,10 +21,23 @@ pitch against a readiness checklist before you get it.
 
 ## Install
 
+**From the repo** (recommended — updates with `git pull`):
+
 ```bash
 git clone https://github.com/syerad/claude-pitchcreator.git
 ln -s "$(pwd)/claude-pitchcreator/skills/shape-up-pitch" ~/.claude/skills/shape-up-pitch
 ```
+
+**From a `.skill` file** (a zip of the skill folder, for passing around without
+git). Download `shape-up-pitch.skill` from the latest release, then:
+
+```bash
+unzip shape-up-pitch.skill -d ~/.claude/skills/
+# → ~/.claude/skills/shape-up-pitch/SKILL.md
+```
+
+Use `-d .claude/skills/` instead to install it for a single project. To build
+the `.skill` yourself, run `./package.sh` — it writes `dist/shape-up-pitch.skill`.
 
 ## Use
 
